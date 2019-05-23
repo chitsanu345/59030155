@@ -103,6 +103,31 @@ h2 {
         "s7  s8"
         "t7  t8";
 }
+#t1{
+  text-align: center;
+}
+#t2{
+  text-align: center;
+}
+#t3{
+  text-align: center;
+}
+#t4{
+  text-align: center;
+}
+#t5{
+  text-align: center;
+}
+#t6{
+  text-align: center;
+}
+#t7{
+  text-align: center;
+}
+#t8{
+  text-align: center;
+}
+
 #sell .table div img{
     width: 90%;
     height: 250px;
@@ -111,13 +136,16 @@ h2 {
 
 img {
     display: block;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
     line-height: 2;
     color: #7f8c8d;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     
+}
+footer{
+  margin-bottom: 2rem;
 }
 
 
