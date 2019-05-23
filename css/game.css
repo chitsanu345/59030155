@@ -1,0 +1,87 @@
+* { padding: 0; margin: 0; }
+canvas { background: #eee; display: block; margin: 0 auto; }
+
+nav, section {
+    display: block;
+  }
+  
+  body {
+      background-color: #ecf0f1;
+      font-family: helvetica, arial, sans-serif;
+      font-size: 16px;
+      padding-top: 330px;
+      -moz-transition: padding-top 0.5s ease;
+      -o-transition: padding-top 0.5s ease;
+      -webkit-transition: padding-top 0.5s ease;
+      transition: padding-top 0.5s ease;
+  }
+  
+  header {
+      width: 100%;
+      height: 300px;
+      background-color: #3498db;
+      text-align: center;
+      position: relative;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      z-index: +1;
+      overflow: hidden;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+  }
+  
+  header h1 {
+      font-size: 100px;
+      color: #fff;
+      line-height: 230px;
+      text-transform: uppercase;
+      font-weight: 100;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  
+  header nav {
+      position: absolute;
+      bottom: 0;
+      height: 60px;
+      line-height: 60px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  header nav a {
+      color: #fff;
+      display: inline-block;
+      padding: 10px 15px;
+      line-height: 1;
+      text-decoration: none;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+  }
+    
+  h2 {
+      font-size: 34px;
+      text-transform: uppercase;
+      font-weight: 100;
+      line-height: 2;
+      color: #2c3e50;
+      text-align: center;
+}
+
+#myCanvas
+{
+    border: 2px solid #161616;
+    padding: 3px;
+}
+
+footer h1
+    {
+        text-align: center;
+        font-size: 20px;
+    }
