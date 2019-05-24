@@ -1,24 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>minigame</title>
-    <link rel="stylesheet" href="css/game.css">
+        <link rel="stylesheet" href="css/game.css">
+
+    <title>calendar</title>
 </head>
+    
 <body>
-        <header>
-                <h1>minigame</h1>
-            <nav> 
-                <a href="index.html" class="menu">Home</a></li>
-                <a href="minigame.html" class="menu">MiniGame</a></li>
-                <a href="multimedia.html" class="menu">Contact us</a></li>
-            </nav> 
-            </header>
-        <canvas id="myCanvas" width="480" height="320"></canvas>
+    <header>
+        <h1>Calendar</h1>
+    <nav> 
+        <a href="index.html" class="menu">Home</a></li>
+        <a href="minigame.html" class="menu">Calendar</a></li>
+        <a href="contact.html" class="menu">Contact us</a></li>
+    </nav> 
+    </header>
+
+    <div class ="main">
+        <section>
+            <h2>animation</h2>
+            <div class="container">
+                    <div class="calendar-section">
+                      <div class="row">
+              
+                        <div class="col-sm-6">
+              
+                          <div class="calendar calendar-first" id="calendar_first">
+                            <div class="calendar_header">
+                              <button class="switch-month switch-left">
+                                <i class="glyphicon glyphicon-chevron-left"></i>
+                              </button>
+                              <h2></h2>
+                              <button class="switch-month switch-right">
+                                <i class="glyphicon glyphicon-chevron-right"></i>
+                              </button>
+                            </div>
+                            <div class="calendar_weekdays"></div>
+                            <div class="calendar_content"></div>
+                          </div>
+              
+                        </div>
+                        <div class="col-sm-6">
+              
+                          <div class="calendar calendar-second" id="calendar_second">
+                            <div class="calendar_header">
+                              <button class="switch-month switch-left">
+                                <i class="glyphicon glyphicon-chevron-left"></i>
+                              </button>
+                              <h2></h2>
+                              <button class="switch-month switch-right">
+                                <i class="glyphicon glyphicon-chevron-right"></i>
+                              </button>
+                            </div>
+                            <div class="calendar_weekdays"></div>
+                            <div class="calendar_content"></div>
+                          </div>            
+              
+                        </div>
+              
+                      </div> <!-- End Row -->
+                          
+                    </div> <!-- End Calendar -->
+                  </div> <!-- End Container -->
+
+
+
+        </section>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src="script/game.js"></script>
-        <footer>
-                <a href="https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript"><h1>Create by MDN web docs</h1></a>
-            </footer>
+       
+    </div>
+    
+    <footer>
+        <h1>credit by https://codepen.io/everdimension/pen/FCwDK</h1>
+    </footer>
 </body>
 </html>
